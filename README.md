@@ -1,3 +1,5 @@
 # js-canvas
 
 "canvas_resize.html" will draw a blue square on your screen using the JavaScript canvas element. The square will always be centered and take up as much screen space as possible while remaining a square, even on mobile devices with a tall rectangular screen or desktops with a wider rectangular screen. This uses the eventlistener for resize, and executes a function every time the screen is resized. The square is redrawn based on the new size.
+
+"canvas_keyboard.html" will draw a 32x32 pixel blue square on screen, which can be interacted with using the keyboard. Keys WASD move the square, and E will toggle the color of the square. The square will always stay within the window, so resizing the screen will also move the square if it is out of bounds.
